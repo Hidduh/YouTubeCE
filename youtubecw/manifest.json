@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "YouTube Close Warning",
+  "version": "1.0.0",
+  "author": "Hidde IJzerman",
+
+  "description": "Confirm closing your browser/tab when you're on YouTube",
+  "icons": {
+    "128": "icon128.png" },
+
+  "background": {
+    "scripts": ["thirdParty/jquery-3.3.1.slim.min.js", "youtubeDetector.js"],
+    "persistent": false },
+
+  "permissions": [
+    "tabs",
+    "http://www.youtube.com/*",
+    "https://www.youtube.com/*"
+  ]
+}
