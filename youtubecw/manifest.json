@@ -3,8 +3,9 @@
   "name": "YouTube Close Warning",
   "version": "1.0.0",
   "author": "Hidde IJzerman",
+  "homepage_url": "https://www.hidde.io/",
 
-  "description": "Confirm closing your browser/tab when you're on YouTube",
+  "description": "Confirm closing your browser/tab when you're on YouTube.",
   "icons": {
     "128": "icon128.png" },
 
